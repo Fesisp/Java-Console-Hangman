@@ -1,64 +1,40 @@
-# Jogo da Forca em Java
+# Console Hangman Game with OOP & State Management 🎮
 
-Este é um projeto de implementação do clássico Jogo da Forca em Java, desenvolvido como parte de um desafio de programação. O jogo foi construído utilizando conceitos de Programação Orientada a Objetos (POO) e roda em ambiente console.
+[![Java](https://img.shields.io/badge/Java-17%2B-ED8B00?logo=openjdk&logoColor=white)](https://openjdk.org/)
+[![Status](https://img.shields.io/badge/Status-Completed-success)]()
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-## Estrutura do Projeto
+> A classic Hangman game re-engineered to demonstrate **Object-Oriented Programming (OOP)** principles, modular architecture, and application state management in pure Java.
 
-O projeto está organizado em várias classes, cada uma com sua responsabilidade específica:
+## 📋 Project Overview
 
-- `Main.java`: Ponto de entrada do programa
-- `Game.java`: Controla a lógica principal do jogo
-- `Word.java`: Gerencia a palavra a ser adivinhada
-- `HangmanDrawing.java`: Responsável pela representação visual da forca
-- `GameState.java`: Enum que define os estados possíveis do jogo
+This project goes beyond a simple "guess the word" script. It is structured to simulate a real software application lifecycle, separating the **User Interface** (MenuSystem) from the **Business Logic** (Game, Statistics). It serves as a reference for handling game loops, input validation, and object state in a stateless console environment.
 
-## Conceitos de POO Aplicados
+## ✨ Key Features
 
-1. **Classes e Objetos**
-   - Cada componente do jogo é representado por uma classe
-   - Instâncias são criadas para gerenciar diferentes aspectos do jogo
+* **🧠 Categorized Word Bank:** Players can choose specific themes (e.g., Technology, Food) powered by the `WordCategory` Enum strategy.
+* **📊 Session Statistics:** The `Statistics` class tracks wins, losses, and streaks during the runtime session.
+* **🔄 State Management:** The game flow is controlled by a dedicated `GameState` handler, ensuring valid transitions between menus, gameplay, and results.
+* **🎨 Dynamic ASCII Art:** The `HangmanDrawing` class renders progressive visual feedback based on the player's remaining attempts.
+* **🛡️ Input Validation:** Robust handling of user inputs to prevent crashes or invalid character guesses.
 
-2. **Encapsulamento**
-   - Atributos privados com métodos de acesso quando necessário
-   - Proteção dos dados internos das classes
+## 🛠️ Tech Stack
 
-3. **Separação de Responsabilidades**
-   - Cada classe tem uma função específica e bem definida
-   - Código organizado e de fácil manutenção
+* **Language:** Java (JDK 17+)
+* **Paradigm:** Object-Oriented Programming (OOP)
+* **Interface:** Command Line Interface (CLI)
 
-## Funcionalidades
+## 📂 Project Structure
 
-- Seleção aleatória de palavras de uma lista predefinida
-- Interface em console com representação visual da forca
-- Controle de tentativas e letras já utilizadas
-- Verificação de vitória ou derrota
-- Feedback visual do progresso do jogador
+The code is organized to enforce separation of concerns:
 
-## Como Jogar
-
-1. Execute o programa
-2. Uma palavra será selecionada aleatoriamente
-3. Digite uma letra por vez para tentar adivinhar a palavra
-4. Você tem 6 tentativas antes que o jogo termine
-5. Ganhe adivinhando todas as letras ou perca após 6 erros
-
-## Aspectos Técnicos
-
-- Desenvolvido em Java
-- Utiliza estruturas de dados como List e ArrayList
-- Implementa controle de estado do jogo
-- Possui tratamento de entrada do usuário
-- Utiliza constantes para valores fixos
-
-## Execução do Projeto
-
-Para executar o projeto, você precisará:
-
-1. Ter o Java JDK instalado
-2. Compilar os arquivos .java
-3. Executar a classe Main
-
-```bash
-javac *.java
-java Main
-```
+```text
+src/
+├── Main.java            # Application Entry Point
+├── Game.java            # Core Game Loop & Logic Controller
+├── GameState.java       # Enum/Class for State Management (Playing, Won, Lost)
+├── MenuSystem.java      # UI/Console Interaction Layer
+├── Statistics.java      # Scoreboard & Session Data Tracking
+├── Word.java            # Model representing the secret word
+├── WordCategory.java    # Enum defining available themes
+└── HangmanDrawing.java  # View component for ASCII rendering
