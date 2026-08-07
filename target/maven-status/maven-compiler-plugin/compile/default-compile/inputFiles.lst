@@ -1,0 +1,14 @@
+C:\Users\mrfel\OneDrive\Laboratorio\VSCode\Java-Game-Console-Hangman\src\main\java\com\hangman\Main.java
+C:\Users\mrfel\OneDrive\Laboratorio\VSCode\Java-Game-Console-Hangman\src\main\java\com\hangman\model\Difficulty.java
+C:\Users\mrfel\OneDrive\Laboratorio\VSCode\Java-Game-Console-Hangman\src\main\java\com\hangman\model\GameResult.java
+C:\Users\mrfel\OneDrive\Laboratorio\VSCode\Java-Game-Console-Hangman\src\main\java\com\hangman\model\GameState.java
+C:\Users\mrfel\OneDrive\Laboratorio\VSCode\Java-Game-Console-Hangman\src\main\java\com\hangman\model\Word.java
+C:\Users\mrfel\OneDrive\Laboratorio\VSCode\Java-Game-Console-Hangman\src\main\java\com\hangman\model\WordCategory.java
+C:\Users\mrfel\OneDrive\Laboratorio\VSCode\Java-Game-Console-Hangman\src\main\java\com\hangman\repository\InMemoryWordRepository.java
+C:\Users\mrfel\OneDrive\Laboratorio\VSCode\Java-Game-Console-Hangman\src\main\java\com\hangman\repository\WordRepository.java
+C:\Users\mrfel\OneDrive\Laboratorio\VSCode\Java-Game-Console-Hangman\src\main\java\com\hangman\service\GameEngine.java
+C:\Users\mrfel\OneDrive\Laboratorio\VSCode\Java-Game-Console-Hangman\src\main\java\com\hangman\service\Statistics.java
+C:\Users\mrfel\OneDrive\Laboratorio\VSCode\Java-Game-Console-Hangman\src\main\java\com\hangman\ui\AnsiColor.java
+C:\Users\mrfel\OneDrive\Laboratorio\VSCode\Java-Game-Console-Hangman\src\main\java\com\hangman\ui\HangmanDrawing.java
+C:\Users\mrfel\OneDrive\Laboratorio\VSCode\Java-Game-Console-Hangman\src\main\java\com\hangman\ui\MenuSystem.java
+C:\Users\mrfel\OneDrive\Laboratorio\VSCode\Java-Game-Console-Hangman\src\main\java\com\hangman\util\StringUtils.java

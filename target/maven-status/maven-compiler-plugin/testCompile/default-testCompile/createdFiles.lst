@@ -1,0 +1,5 @@
+com\hangman\util\StringUtilsTest.class
+com\hangman\repository\WordRepositoryTest.class
+com\hangman\service\GameEngineTest.class
+com\hangman\model\WordTest.class
+com\hangman\service\StatisticsTest.class

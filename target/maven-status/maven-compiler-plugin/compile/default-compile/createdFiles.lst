@@ -1,0 +1,14 @@
+com\hangman\model\Word.class
+com\hangman\model\GameResult.class
+com\hangman\model\WordCategory.class
+com\hangman\service\GameEngine.class
+com\hangman\model\Difficulty.class
+com\hangman\ui\HangmanDrawing.class
+com\hangman\repository\InMemoryWordRepository.class
+com\hangman\util\StringUtils.class
+com\hangman\Main.class
+com\hangman\ui\AnsiColor.class
+com\hangman\model\GameState.class
+com\hangman\service\Statistics.class
+com\hangman\ui\MenuSystem.class
+com\hangman\repository\WordRepository.class
